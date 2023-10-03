@@ -16,7 +16,7 @@ app.use((req, res, next) => {
   next();
 });
 app.use('', routes) 
-mongoose.connect('mongodb+srv://hariharan:13250316%40BIRTHday@cluster0.kxooai0.mongodb.net/car');
+mongoose.connect('mongodb+srv://hariharan:13250316BIRTHday@cluster0.kxooai0.mongodb.net/car');
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
