@@ -2,7 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import cors from 'cors';
-import routes from './routes/routes';
+import routes from './src/routes/routes';
 const app = express()
 const port=4000;
 app.use(bodyParser.urlencoded({ extended: false }));
